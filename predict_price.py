@@ -42,7 +42,7 @@ CSV_COLUMNS = ["stock_item_id","sales_price","sales_quantity",
                "last_cost_Price","quantity_per_Outer","tax_rate",
                "recommended_retail_price"]
 
-raw_dataset = pd.read_csv('exported_data_1.csv', names=CSV_COLUMNS ,
+raw_dataset = pd.read_csv('exported_data.csv', names=CSV_COLUMNS ,
                       na_values = "?", comment='\t',
                       sep=";", skipinitialspace=True,encoding = 'ISO-8859-1')
 
